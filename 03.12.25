@@ -1,0 +1,241 @@
+Cpp-2 (26-50)
+
+Q26- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string name;
+    cin >> name;
+    cout << "My name is " << name << endl;
+}
+
+Q27- 
+#include<bits/stdc++.h>
+using namespace std; 
+int main(){
+    string city;
+    cin >> city;
+    cout << "I live in " << city << endl;
+}
+
+Q28- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string degree, institution;
+    cin >> degree >> institution;
+    cout << "I have completed " << degree << " from " << institution << endl;
+}
+
+Q29-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string color;
+    cin >> color;
+    cout << "My favorite color is " << color << endl;
+}
+
+Q30- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string job;
+    cin >> job;
+    cout << "I am working as a " << job << endl;
+}
+
+Q31- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string city, hobby;
+    cin >> city >> hobby;
+    cout << "I am from " << city << ", and my favorite hobby is " << hobby << endl;
+}
+
+Q32- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int pets;
+    cin >> pets;
+    cout << "I own " << pets << " pets" << endl;
+}
+
+Q33- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int siblings;
+    cin >> siblings;
+    cout << "I have " << siblings << " siblings" << endl;
+}
+
+Q34- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int age;
+    string activity;
+    cin >> age >> activity;
+    cout << "I am " << age << " years old and I enjoy " << activity << endl;
+}
+
+Q35- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string place;
+    cin >> place;
+    cout << "I plan to visit " << place << " this summer" << endl;
+}
+
+Q36- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string p1, p2;
+    cin >> p1 >> p2;
+    cout << "I prefer " << p1 << " over " << p2 << endl;
+}
+
+Q37- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float weight;
+    cin >> weight;
+    cout << "I am " << weight << " kg" << endl;
+}
+
+Q38-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string career;
+    cin >> career;
+    cout << "I am interested in " << career << " as a career" << endl;
+}
+
+Q39-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a[10];
+    for(int i=0;i<10;i++){
+        cin >> a[i];
+    }
+    for(int i=0;i<10;i++){
+        cout << a[i] << " ";
+    }
+}
+
+Q40-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a[15];
+    for(int i=0;i<15;i++){
+        cin >> a[i];
+    }
+    for(int i=0;i<15;i++){
+        cout << a[i] << " ";
+    }
+}
+
+Q41- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string name, city, college;
+    cin >> name >> city >> college;
+    cout << "Hello, myself " << name << ". I am from " << city << ". I have completed BTech from " << college << "." << endl;
+}
+
+Q42-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin >> a >> b;
+    cout << a + b;
+}
+
+Q43-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin >> a >> b;
+    int diff = a - b;
+    cout << abs(diff);
+}
+
+Q44-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a, b, c, d, e;
+    cin >> a >> b >> c >> d >> e;
+    cout << (a + b + c + d + e) / 5;
+}
+
+Q45-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin >> a >> b;
+    swap(a, b);
+    cout << a << " " << b;
+}
+
+Q46-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin >> n;
+    if(n > 0) cout << "Positive";
+    else if(n < 0) cout << "Negative";
+    else cout << "Zero";
+}
+
+Q47-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin >> n;
+    if(n % 2 == 0) cout << "Even";
+    else cout << "Odd";
+}
+
+Q48-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a[20];
+    for(int i = 0; i < 20; i++) cin >> a[i];
+    for(int i = 0; i < 20; i++) cout << a[i] << " ";
+}
+
+Q49-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string a, b;
+    cin >> a >> b;
+    swap(a, b);
+    cout << a << " " << b;
+}
+
+Q50-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a[5];
+    for(int i=0;i<5;i++) cin >> a[i];
+    cout << *min_element(a, a+5);
+}
