@@ -1,0 +1,220 @@
+Q1- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    cout<<"HELLO WORLD"<<endl;
+}
+
+Q2- 
+#include<bits/stdc++.h>
+using namespa ce std;
+int main(){
+    cout<<"my name is kishan"<<endl;
+}
+
+Q3- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    cout<<"my name is kishan"<<endl;
+    cout<<"my age is 19"<<endl;
+}
+
+Q4- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 10;
+    int b = 20;
+    cout<<"the result is :"<<a+b<<endl;
+}
+
+Q5- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 7;
+    int b = 8;
+    cout<<"the result is :"<<a*b<<endl;
+}
+
+Q6-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    cout<<"C++ programming is fun!"<<endl;
+}
+
+Q7- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int x =25;
+    cout<<"the value of x is :"<<x<<endl;
+}
+
+Q8- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a;
+    int b;
+    cout<<"enter a and b"<<endl;
+    cin>>a>>b;
+    cout<<"the sum of two number is:"<<a+b<<endl;
+}
+
+Q9- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a=3.14;
+    cout<<"the value of a is:"<<a<<endl;
+}
+
+Q10- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    cout<<"my age is :"<<a<<endl;
+}
+
+Q11- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a=15;
+    int b=50;
+    cout<<"result is :"<<b-a<<endl;
+}
+
+Q12- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a=15;
+    int b= 10;
+    int y=a+b;
+    cout<<"result is :"<<y<<endl;
+}
+
+Q13-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a=100;
+    int b=5;
+    int y=a/b;
+    cout<<"result is :"<<y<<endl;
+}
+
+Q14- 
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a= 11%4;
+    cout<<"result is :"<<a<<endl;
+}
+
+Q15-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 5;
+    int b = 4;
+    int c = 3;
+    int z = a*b+c;
+    cout<<"result is :"<<z<<endl;
+}
+
+Q16- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 12;
+    int b = 13;
+    cout<<"the result is:"<<a*b<<endl;
+}
+
+Q17-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 45;
+    cout<<"the number is:"<<a<<endl;
+}
+
+Q18-
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    float num = 4.5689;
+    cout << fixed << setprecision(2) << num << endl;
+}
+
+Q19- 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a = 5.5;
+    float b = 2.2;
+    cout<<"the result is :"<<a/b<<endl;
+}
+
+Q20-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<"the result is :"<<a+b+c<<endl;
+}
+
+Q21-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float a = 12.34;
+    cout<<"the result is :"<<a<<endl;
+}
+
+Q22-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 6;
+    int b = 5;
+    cout<<"the result is :"<<a*b<<endl;
+}
+
+Q23-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a ;
+    cin>>a;
+    cout<<"My favorite number is:"<<a<<endl;
+}
+
+Q24-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a = 10;
+    int b = 5;
+    cout<<"The result is :"<<a+b<<endl;
+}
+
+Q25-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int age;
+    cout<<"enter age:"<<endl;
+    cin>>age;
+    cout<<"I am "<<age<<" years old"<<endl;
+}
